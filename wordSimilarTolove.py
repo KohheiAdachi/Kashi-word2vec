@@ -31,7 +31,7 @@ def split_into_words(doc):
             if chunks[3].startswith('形容動詞'):
                 words.append(chunks[2])    
     return words
-
+# ストップワードを作成
 def create_stop_word():
     target_url = 'http://svn.sourceforge.jp/svnroot/slothlib/CSharp/Version1/SlothLib/NLP/Filter/StopWord/word/Japanese.txt'
     r =requests.get(target_url)
