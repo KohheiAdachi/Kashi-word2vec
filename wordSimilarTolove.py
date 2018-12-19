@@ -1,6 +1,4 @@
 # -*- coding:utf-8 -*-
-import os
-import sys
 import MeCab
 from gensim.models import word2vec
 from glob import glob
